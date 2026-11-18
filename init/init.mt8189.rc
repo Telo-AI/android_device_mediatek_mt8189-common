@@ -327,6 +327,9 @@ on post-fs-data
     #chmod 666 /dev/mali0
     #chown system graphics /dev/mali
 
+    # key_provisioning dir
+    mkdir /data/vendor/key_provisioning 0770 system system
+
 
 
     # Touch Panel
@@ -1066,7 +1069,7 @@ on property:persist.vendor.mediatek.fg.log.enable=1
 service meta_tst /vendor/bin/meta_tst
     class core
     user root
-    group radio gps system wifi audio bluetooth media
+    group radio gps system wifi audio bluetooth media drmrpc
     capabilities NET_RAW NET_ADMIN
     socket meta-atci stream 660 radio system
     disabled

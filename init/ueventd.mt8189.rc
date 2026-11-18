@@ -259,3 +259,8 @@
 
 #dynamic sensor
 /dev/hidraw*   0660 system system
+
+# HDMIRX node
+/dev/hdmirx               0664   media      system
+
+/dev/cec0                 0666   media      system
