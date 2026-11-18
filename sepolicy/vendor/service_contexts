@@ -1,0 +1,3 @@
+android.hardware.drm.IDrmFactory/playready                         u:object_r:hal_drm_service:s0
+vendor.mediatek.hardware.hdmi_aidl.IMtkHdmiService_AIDL/default    u:object_r:mtk_hal_hdmi_service:s0
+vendor.mediatek.hardware.nwk_opt_new.INwkOptNew/default            u:object_r:mtk_hal_nwk_opt_service:s0

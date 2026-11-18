@@ -1,0 +1,293 @@
+{
+    "Sensors": [
+        {
+            "Name": "soc_max",
+            "Type": "SOC",
+            "Multiplier": 0.001,
+            "Monitor": true,
+            "PollingDelay": 1000,
+            "PassiveDelay": 100,
+            "HotThreshold": [
+                "NaN",
+                68.0,
+                "NaN",
+                85.0,
+                "NaN",
+                "NaN",
+                115.0
+            ],
+            "VrThreshold": "NaN"
+        },
+        {
+            "Name": "cpu-big1",
+            "Type": "CPU",
+            "Multiplier": 0.001,
+            "HotThreshold": [
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN"
+            ],
+            "VrThreshold": "NaN"
+        },
+        {
+            "Name": "cpu-big2",
+            "Type": "CPU",
+            "Multiplier": 0.001,
+            "HotThreshold": [
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN"
+            ],
+            "VrThreshold": "NaN"
+        },
+        {
+            "Name": "cpu-big3",
+            "Type": "CPU",
+            "Multiplier": 0.001,
+            "HotThreshold": [
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN"
+            ],
+            "VrThreshold": "NaN"
+        },
+        {
+            "Name": "cpu-big4",
+            "Type": "CPU",
+            "Multiplier": 0.001,
+            "HotThreshold": [
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN"
+            ],
+            "VrThreshold": "NaN"
+        },
+        {
+            "Name": "cpu-little1",
+            "Type": "CPU",
+            "Multiplier": 0.001,
+            "HotThreshold": [
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN"
+            ],
+            "VrThreshold": "NaN"
+        },
+        {
+            "Name": "cpu-little2",
+            "Type": "CPU",
+            "Multiplier": 0.001,
+            "HotThreshold": [
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN"
+            ],
+            "VrThreshold": "NaN"
+        },
+        {
+            "Name": "cpu-little3",
+            "Type": "CPU",
+            "Multiplier": 0.001,
+            "HotThreshold": [
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN"
+            ],
+            "VrThreshold": "NaN"
+        },
+        {
+            "Name": "cpu-little4",
+            "Type": "CPU",
+            "Multiplier": 0.001,
+            "HotThreshold": [
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN"
+            ],
+            "VrThreshold": "NaN"
+        },
+        {
+            "Name": "cpu-little5",
+            "Type": "CPU",
+            "Multiplier": 0.001,
+            "HotThreshold": [
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN"
+            ],
+            "VrThreshold": "NaN"
+        },
+        {
+            "Name": "cpu-little6",
+            "Type": "CPU",
+            "Multiplier": 0.001,
+            "HotThreshold": [
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN"
+            ],
+            "VrThreshold": "NaN"
+        },
+        {
+            "Name": "cpu-little7",
+            "Type": "CPU",
+            "Multiplier": 0.001,
+            "HotThreshold": [
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN"
+            ],
+            "VrThreshold": "NaN"
+        },
+        {
+            "Name": "cpu-little8",
+            "Type": "CPU",
+            "Multiplier": 0.001,
+            "HotThreshold": [
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN"
+            ],
+            "VrThreshold": "NaN"
+        },
+        {
+            "Name": "soc1",
+            "Type": "SOC",
+            "Multiplier": 0.001,
+            "HotThreshold": [
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN"
+            ],
+            "VrThreshold": "NaN"
+        },
+        {
+            "Name": "soc2",
+            "Type": "SOC",
+            "Multiplier": 0.001,
+            "HotThreshold": [
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN"
+            ],
+            "VrThreshold": "NaN"
+        },
+        {
+            "Name": "soc3",
+            "Type": "SOC",
+            "Multiplier": 0.001,
+            "HotThreshold": [
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN"
+            ],
+            "VrThreshold": "NaN"
+        },
+        {
+            "Name": "apu",
+            "Type": "NPU",
+            "Multiplier": 0.001,
+            "HotThreshold": [
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN"
+            ],
+            "VrThreshold": "NaN"
+        },
+        {
+            "Name": "gpu1",
+            "Type": "GPU",
+            "Multiplier": 0.001,
+            "HotThreshold": [
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN"
+            ],
+            "VrThreshold": "NaN"
+        },
+        {
+            "Name": "gpu2",
+            "Type": "GPU",
+            "Multiplier": 0.001,
+            "HotThreshold": [
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN"
+            ],
+            "VrThreshold": "NaN"
+        }
+    ],
+    "CoolingDevices": []
+}

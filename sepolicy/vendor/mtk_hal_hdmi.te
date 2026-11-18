@@ -1,0 +1,1 @@
+allow mtk_hal_hdmi mitee_client_device:chr_file rw_file_perms;

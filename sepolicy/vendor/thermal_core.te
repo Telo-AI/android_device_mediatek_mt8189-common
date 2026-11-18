@@ -1,0 +1,1 @@
+allow thermal_core frs_socket:sock_file { append create getattr ioctl lock map open read rename setattr unlink write };

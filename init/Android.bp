@@ -1,0 +1,80 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "fstab.enableswap",
+    src: "fstab.enableswap",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "fstab.mt8189",
+    src: "fstab.mt8189",
+    vendor: true,
+    vendor_ramdisk_available: true,
+}
+
+prebuilt_etc {
+    name: "init.cgroup.rc",
+    src: "init.cgroup.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.mt8189.rc",
+    src: "init.mt8189.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.mt8189.usb.rc",
+    src: "init.mt8189.usb.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.mtkgki.rc",
+    src: "init.mtkgki.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.project.rc",
+    src: "init.project.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.pstore.rc",
+    src: "init.pstore.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.sensor_2_0.rc",
+    src: "init.sensor_2_0.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.recovery.mt8189.rc",
+    src: "init.recovery.mt8189.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "ueventd.mt8189.rc",
+    filename: "ueventd.rc",
+    src: "ueventd.mt8189.rc",
+    vendor: true,
+}

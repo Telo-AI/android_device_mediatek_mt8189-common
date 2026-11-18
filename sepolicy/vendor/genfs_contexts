@@ -1,0 +1,32 @@
+# Batteryinfo
+genfscon sysfs /devices/platform/soc/11d71000.i2c/i2c-4/4-0034/11d71000.i2c:mt6375@34:chg/power_supply/primary_chg u:object_r:sysfs_batteryinfo:s0
+
+# Extcon
+genfscon sysfs /devices/platform/odm/odm:extcon-usb/extcon u:object_r:sysfs_extcon:s0
+genfscon sysfs /devices/platform/soc/11b60000.dp-tx/extcon u:object_r:sysfs_extcon:s0
+
+# LEDs
+genfscon sysfs /devices/platform/soc/soc:pwmleds/leds/lcd-backlight u:object_r:sysfs_leds:s0
+genfscon sysfs /devices/platform/soc/soc:pwmleds1/leds/lcd-backlight_1 u:object_r:sysfs_leds:s0
+
+# Wakeup
+genfscon sysfs /devices/platform/soc/11210000.usb1/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/11220000.usb2/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/11250000.mmc/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/11260000.usb3/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/11270000.usb4/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/11d71000.i2c/i2c-4/4-0034/11d71000.i2c:mt6375@34:adc/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/11d71000.i2c/i2c-4/4-0034/11d71000.i2c:mt6375@34:auxadc/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/11d71000.i2c/i2c-4/4-0034/11d71000.i2c:mt6375@34:chg/power_supply/primary_chg/wakeup27 u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/11d71000.i2c/i2c-4/4-0034/11d71000.i2c:mt6375@34:tcpc/tcpc/type_c_port0/wakeup32 u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/11d71000.i2c/i2c-4/4-0034/11d71000.i2c:mt6375@34:tcpc/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/11d71000.i2c/i2c-4/4-0034/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/11d72000.i2c/i2c-5/5-004e/tcpc/type_c_port1/wakeup28 u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/11d72000.i2c/i2c-5/5-004e/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/15020000.imgsys-config/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/1a000000.camisp-legacy/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/1cc04000.pwrap/1cc04000.pwrap:mt6359p/mt6359p-rtc/rtc/rtc0/alarmtimer.2.auto/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/1cc04000.pwrap/1cc04000.pwrap:mt6359p/mt6359p-rtc/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/1cc04000.pwrap/1cc04000.pwrap:mt6359p/mt635x-auxadc/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/1cc06000.spmi/spmi-0/0-07/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/1f01a000.mdp-cmdq/wakeup u:object_r:sysfs_wakeup:s0

@@ -1,0 +1,34 @@
+# Bootctrl
+/vendor/bin/hw/android\.hardware\.boot-service\.mtk                                          u:object_r:hal_bootctl_default_exec:s0
+
+# DRM
+/dev/mtk_mma                                                                                 u:object_r:mtk_mma_device:s0
+/vendor/bin/hw/android\.hardware\.drm-service\.playready                                     u:object_r:hal_drm_playready_exec:s0
+
+# FRS
+/dev/socket/frs_socket(/.*)?                                                                 u:object_r:frs_socket:s0
+
+# Gatekeeper
+/vendor/bin/hw/android\.hardware\.gatekeeper-service\.tee                                    u:object_r:hal_gatekeeper_default_exec:s0
+
+# Graphics
+/vendor/etc/gralloc/(cam|dpu|dpu_aeu|gpu|vpu)\.xml                                           u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/mt8189/libarm_egl_properties_sysprop\.so                                    u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/mt8189/libarm_gralloc_properties_sysprop\.so                                u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/mt8189/libarm_mali_config_sysprops\.so                                      u:object_r:same_process_hal_file:s0
+
+# HDMI
+/vendor/bin/hw/vendor\.mediatek\.hardware\.hdmi_aidl-service                                 u:object_r:mtk_hal_hdmi_exec:s0
+
+# KeyMint
+/vendor/bin/hw/android\.hardware\.security\.keymint@3\.0-service\.tee                        u:object_r:hal_keymint_default_exec:s0
+
+# Neural networks
+/vendor/bin/hw/android\.hardware\.neuralnetworks-shim-service-mtk-lazy                       u:object_r:mtk_hal_neuralnetworks_exec:s0
+
+# USB
+/vendor/bin/hw/android\.hardware\.usb-aidl-service\.mediatekv1\.0                            u:object_r:mtk_hal_usb_exec:s0
+/vendor/bin/hw/android\.hardware\.usb\.gadget-aidl-service\.mediatekv1\.0                    u:object_r:mtk_hal_usb_exec:s0
+
+# Video
+/vendor/bin/hyb_vpud-64b                                                                     u:object_r:vpud_native_exec:s0

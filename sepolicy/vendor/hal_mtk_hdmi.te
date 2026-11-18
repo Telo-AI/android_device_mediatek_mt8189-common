@@ -1,0 +1,2 @@
+hal_attribute_service(hal_mtk_hdmi, mtk_hal_hdmi_service)
+binder_use(hal_mtk_hdmi_server)

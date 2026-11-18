@@ -1,0 +1,1 @@
+allow DcxoSetCap proc_bootconfig:file { getattr open read };
