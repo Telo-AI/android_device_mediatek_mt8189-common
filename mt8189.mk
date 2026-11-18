@@ -93,15 +93,15 @@ PRODUCT_PACKAGES += \
 # Rootdir
 PRODUCT_PACKAGES += \
     fstab.enableswap \
-    fstab.mt8189 \
-    fstab.mt8189.vendor_ramdisk \
+    fstab.mt8391 \
+    fstab.mt8391.vendor_ramdisk \
     init.cgroup.rc \
-    init.mt8189.rc \
+    init.mt8391.rc \
     init.mt8189.usb.rc \
     init.mtkgki.rc \
     init.project.rc \
     init.pstore.rc \
-    init.recovery.mt8189.rc \
+    init.recovery.mt8391.rc \
     init.sensor_2_0.rc \
     ueventd.mt8189.rc
 

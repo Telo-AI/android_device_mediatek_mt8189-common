@@ -252,7 +252,7 @@ vendor/etc/gralloc/dpu.xml
 vendor/etc/gralloc/dpu_aeu.xml
 vendor/etc/gralloc/gpu.xml
 vendor/etc/gralloc/vpu.xml
-vendor/etc/init.insmod.mt8189.cfg
+vendor/etc/init.insmod.mt8391.cfg
 vendor/etc/init/android.hardware.boot-service.mtk.rc
 vendor/etc/init/android.hardware.drm-service.playready.rc
 vendor/etc/init/android.hardware.gatekeeper-service.tee.rc

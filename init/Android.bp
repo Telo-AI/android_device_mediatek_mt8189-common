@@ -10,8 +10,8 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "fstab.mt8189",
-    src: "fstab.mt8189",
+    name: "fstab.mt8391",
+    src: "fstab.mt8391",
     vendor: true,
     vendor_ramdisk_available: true,
 }
@@ -24,8 +24,8 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "init.mt8189.rc",
-    src: "init.mt8189.rc",
+    name: "init.mt8391.rc",
+    src: "init.mt8391.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
@@ -66,8 +66,8 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "init.recovery.mt8189.rc",
-    src: "init.recovery.mt8189.rc",
+    name: "init.recovery.mt8391.rc",
+    src: "init.recovery.mt8391.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
