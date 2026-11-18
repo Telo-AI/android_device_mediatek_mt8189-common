@@ -77,7 +77,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.prebuilt.xml \
     android.hardware.bluetooth_le.prebuilt.xml \
     android.hardware.faketouch.prebuilt.xml \
-    android.hardware.location.gps.prebuilt.xml \
     android.hardware.sensor.accelerometer.prebuilt.xml \
     android.hardware.sensor.light.prebuilt.xml \
     android.hardware.sensor.proximity.prebuilt.xml \

@@ -73,8 +73,6 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib64/vendor.mediatek.hardware.pq_aidl-V5-ndk.so',
     ): blob_fixup()
         .replace_needed('android.hardware.graphics.common-V4-ndk.so', 'android.hardware.graphics.common-V7-ndk.so'),
-    'vendor/bin/mnld': blob_fixup()
-        .replace_needed('libmnl.so', 'libmnl_mtk.so'),
     (
         'vendor/lib/egl/libGLESv2_angle.so',
         'vendor/lib/mt8189/libneuralnetworks_sl_driver_mtk_prebuilt.so',
@@ -145,10 +143,7 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib64/libcodec2_mtk_venc.so',
     ): blob_fixup()
         .replace_needed('libformatter.so', 'libformatter_mtk.so'),
-    (
-        'vendor/lib/mt8189/libmtkcam_grallocutils.so',
-        'vendor/lib64/mt8189/libmtkcam_grallocutils.so',
-    ): blob_fixup()
+    'vendor/lib64/mt8189/libmtkcam_grallocutils.so': blob_fixup()
         .replace_needed('android.hardware.graphics.common-V5-ndk.so', 'android.hardware.graphics.common-V7-ndk.so'),
     (
         'vendor/lib/mt8189/libpqconfig.so',

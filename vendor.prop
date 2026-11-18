@@ -35,7 +35,6 @@ vendor.mtk.camera.app.fd.video=1
 
 # Connectivity
 persist.vendor.connsys.chipid=-1
-persist.vendor.connsys.coredump.mode=1
 persist.vendor.connsys.dynamic.dump=0
 persist.vendor.connsys.patch.version=-1
 ro.vendor.wifi.sap.concurrent.iface=ap1
@@ -44,10 +43,6 @@ ro.vendor.wifi.sap.interface=ap0
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
 dalvik.vm.heapgrowthlimit=256m
-
-# GNSS
-ro.vendor.gps.chrdev=gps_drv_stp
-ro.vendor.mtk_log_hide_gps=0
 
 # Graphics
 debug.mediatek.disp_decompress=1
@@ -159,13 +154,13 @@ ro.vendor.pq.mtk_blulight_def_support=1
 ro.vendor.pq.mtk_caltm_support=0
 ro.vendor.pq.mtk_clearzoom_support=0
 ro.vendor.pq.mtk_dc_support=0
-ro.vendor.pq.mtk_disp_c3d_support=1
+ro.vendor.pq.mtk_disp_c3d_support=0
 ro.vendor.pq.mtk_disp_ccorr_support=1
 ro.vendor.pq.mtk_disp_color_support=1
 ro.vendor.pq.mtk_disp_game_pq_support=0
 ro.vendor.pq.mtk_disp_gamma_support=1
 ro.vendor.pq.mtk_disp_papermode_support=1
-ro.vendor.pq.mtk_disp_tdshp_support=1
+ro.vendor.pq.mtk_disp_tdshp_support=0
 ro.vendor.pq.mtk_dre30_support=0
 ro.vendor.pq.mtk_dre_cap=0
 ro.vendor.pq.mtk_ds_support=1
