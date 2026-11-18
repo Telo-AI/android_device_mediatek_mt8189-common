@@ -1,2 +1,3 @@
+allow nvram_daemon self:capability { net_admin net_raw };
 allow nvram_daemon self:udp_socket { create ioctl };
 allowxperm nvram_daemon self:udp_socket ioctl SIOCSIFHWADDR;
