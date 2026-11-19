@@ -26,8 +26,6 @@ vendor/bin/em_hidl
 vendor/bin/fpsgo
 vendor/bin/frs
 vendor/bin/frs_intf
-vendor/bin/fuelgauged
-vendor/bin/fuelgauged_nvram
 vendor/bin/gbe
 vendor/bin/gpu_counter_producer;MODULE_SUFFIX=_vendor
 vendor/bin/gsm0710muxd
@@ -275,8 +273,6 @@ vendor/etc/init/dmc_core.rc
 vendor/etc/init/eara-io-service.rc
 vendor/etc/init/em_hal_user.rc
 vendor/etc/init/fpsgo.rc
-vendor/etc/init/fuelgauged_init.rc
-vendor/etc/init/fuelgauged_nvram_init.rc
 vendor/etc/init/gbe.rc
 vendor/etc/init/gsm0710muxd.rc
 vendor/etc/init/hyb_vpud-64b.rc
