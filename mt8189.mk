@@ -8,9 +8,35 @@ COMMON_PATH := device/mediatek/mt8189-common
 $(call inherit-product, $(SRC_TARGET_DIR)/product/generic_ramdisk.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_vendor_ramdisk.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/vabc_features.mk)
 $(call inherit-product, hardware/mediatek/overlay/mssi.mk)
 $(call inherit-product, hardware/lineage/compat/frameworks/compat.mk)
 $(call inherit-product, hardware/mediatek/frameworks/mediatek-frameworks.mk)
+
+# A/B
+AB_OTA_POSTINSTALL_CONFIG += \
+    RUN_POSTINSTALL_system=true \
+    POSTINSTALL_PATH_system=system/bin/otapreopt_script \
+    FILESYSTEM_TYPE_system=ext4 \
+    POSTINSTALL_OPTIONAL_system=true
+
+AB_OTA_POSTINSTALL_CONFIG += \
+    RUN_POSTINSTALL_vendor=true \
+    POSTINSTALL_PATH_vendor=bin/checkpoint_gc \
+    FILESYSTEM_TYPE_vendor=erofs \
+    POSTINSTALL_OPTIONAL_vendor=true
+
+PRODUCT_PACKAGES += \
+    checkpoint_gc \
+    otapreopt_script
+
+PRODUCT_PACKAGES += \
+    update_engine \
+    update_engine_sideload \
+    update_verifier
+
+PRODUCT_PACKAGES_DEBUG += \
+    update_engine_client
 
 # VNDK
 PRODUCT_EXTRA_VNDK_VERSIONS := 34
