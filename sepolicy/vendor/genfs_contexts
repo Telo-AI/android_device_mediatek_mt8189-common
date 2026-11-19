@@ -17,11 +17,11 @@ genfscon sysfs /devices/platform/soc/11260000.usb3/wakeup u:object_r:sysfs_wakeu
 genfscon sysfs /devices/platform/soc/11270000.usb4/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/11d71000.i2c/i2c-4/4-0034/11d71000.i2c:mt6375@34:adc/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/11d71000.i2c/i2c-4/4-0034/11d71000.i2c:mt6375@34:auxadc/wakeup u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/soc/11d71000.i2c/i2c-4/4-0034/11d71000.i2c:mt6375@34:chg/power_supply/primary_chg/wakeup27 u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/soc/11d71000.i2c/i2c-4/4-0034/11d71000.i2c:mt6375@34:tcpc/tcpc/type_c_port0/wakeup32 u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/11d71000.i2c/i2c-4/4-0034/11d71000.i2c:mt6375@34:chg/power_supply/primary_chg/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/11d71000.i2c/i2c-4/4-0034/11d71000.i2c:mt6375@34:tcpc/tcpc/type_c_port0/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/11d71000.i2c/i2c-4/4-0034/11d71000.i2c:mt6375@34:tcpc/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/11d71000.i2c/i2c-4/4-0034/wakeup u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/soc/11d72000.i2c/i2c-5/5-004e/tcpc/type_c_port1/wakeup28 u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/11d72000.i2c/i2c-5/5-004e/tcpc/type_c_port1/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/11d72000.i2c/i2c-5/5-004e/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/15020000.imgsys-config/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/1a000000.camisp-legacy/wakeup u:object_r:sysfs_wakeup:s0
