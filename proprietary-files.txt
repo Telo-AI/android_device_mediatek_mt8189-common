@@ -445,8 +445,6 @@ vendor/lib/egl/libMEOW_data.so
 vendor/lib/egl/libMEOW_qt.so
 vendor/lib/egl/libMEOW_trace.so
 vendor/lib/egl/mt8189/libGLES_mali.so;MODULE_SUFFIX=_vendor;SYMLINK=vendor/lib/egl/libGLES_mali.so
-vendor/lib/hw/android.hardware.audio@7.0-impl-mediatek.so
-vendor/lib/hw/android.hardware.audio@7.1-impl-mediatek.so
 vendor/lib/hw/android.hardware.soundtrigger3-impl.so
 vendor/lib/hw/audio.primary.mediatek.so;SYMLINK=vendor/lib/hw/audio.primary.mt8189.so
 vendor/lib/hw/audio.r_submix.mediatek.so;SYMLINK=vendor/lib/hw/audio.r_submix.mt8189.so
@@ -522,7 +520,7 @@ vendor/lib/libarmnn.so;MODULE_SUFFIX=_vendor
 vendor/lib/libarmnn_ndk.mtk.vndk.so;FIX_SONAME
 vendor/lib/libasn1c_core.so
 vendor/lib/libasn1c_mapi.so
-vendor/lib/libaudio_aidl_conversion_common_ndk.so:vendor/lib/libaudio_aidl_conversion_common_ndk_prebuilt.so;DISABLE_DEPS;FIX_SONAME
+vendor/lib/libaudio_aidl_conversion_common_ndk.so:vendor/lib/libaudio_aidl_conversion_common_ndk_prebuilt.so;FIX_SONAME
 vendor/lib/libaudio_param_parser-vnd.so
 vendor/lib/libaudiocompensationfilter_vendor.so
 vendor/lib/libaudiocompensationfilterc.so
@@ -842,8 +840,6 @@ vendor/lib64/egl/libMEOW_data.so
 vendor/lib64/egl/libMEOW_qt.so
 vendor/lib64/egl/libMEOW_trace.so
 vendor/lib64/egl/mt8189/libGLES_mali.so;MODULE_SUFFIX=_vendor;SYMLINK=vendor/lib64/egl/libGLES_mali.so
-vendor/lib64/hw/android.hardware.audio@7.0-impl-mediatek.so
-vendor/lib64/hw/android.hardware.audio@7.1-impl-mediatek.so
 vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so
 vendor/lib64/hw/android.hardware.soundtrigger3-impl.so
 vendor/lib64/hw/audio.primary.mediatek.so;SYMLINK=vendor/lib64/hw/audio.primary.mt8189.so
@@ -931,7 +927,7 @@ vendor/lib64/libarmnn.so;MODULE_SUFFIX=_vendor
 vendor/lib64/libarmnn_ndk.mtk.vndk.so;FIX_SONAME
 vendor/lib64/libasn1c_core.so
 vendor/lib64/libasn1c_mapi.so
-vendor/lib64/libaudio_aidl_conversion_common_ndk.so:vendor/lib64/libaudio_aidl_conversion_common_ndk_prebuilt.so;DISABLE_DEPS;FIX_SONAME
+vendor/lib64/libaudio_aidl_conversion_common_ndk.so:vendor/lib64/libaudio_aidl_conversion_common_ndk_prebuilt.so;FIX_SONAME
 vendor/lib64/libaudio_param_parser-vnd.so
 vendor/lib64/libaudiocompensationfilter_vendor.so
 vendor/lib64/libaudiocompensationfilterc.so

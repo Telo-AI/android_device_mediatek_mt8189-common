@@ -44,6 +44,7 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_PACKAGES += \
+    android.hardware.audio@7.1-impl \
     android.hardware.audio.effect@7.0-impl \
     android.hardware.audio.service.mediatek
 
@@ -52,6 +53,8 @@ PRODUCT_PACKAGES += \
     audio_policy.stub \
     audio.r_submix.default \
     audio.usb.default
+
+$(call soong_config_set_bool,android_hardware_audio,skip_speaker_layout_channel_mask_field,true)
 
 # Bluetooth
 PRODUCT_PACKAGES += \
