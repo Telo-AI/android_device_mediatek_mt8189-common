@@ -159,6 +159,7 @@ on post-fs-data
     write /proc/bootprof "INIT:post-fs-data"
     wait_for_prop vendor.all.modules.ready 1
     write /proc/bootprof "modprobe: Load_Module_DONE"
+    mkdir /data/vendor/audiohal 0771 system audio
 
     # Disable watermark boost
     write /proc/sys/vm/watermark_boost_factor 0
