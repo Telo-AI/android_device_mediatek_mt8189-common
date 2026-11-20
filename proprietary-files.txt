@@ -21,12 +21,7 @@ vendor/bin/ccci_rpcd
 vendor/bin/dconfig_flashless
 vendor/bin/dcxosetcap
 vendor/bin/dmc_core
-vendor/bin/eara_io_service
 vendor/bin/em_hidl
-vendor/bin/fpsgo
-vendor/bin/frs
-vendor/bin/frs_intf
-vendor/bin/gbe
 vendor/bin/gpu_counter_producer;MODULE_SUFFIX=_vendor
 vendor/bin/gsm0710muxd
 vendor/bin/hw/android.hardware.drm-service.playready
@@ -46,8 +41,6 @@ vendor/bin/hw/vendor.mediatek.hardware.hdmi_aidl-service
 vendor/bin/hw/vendor.mediatek.hardware.mmagent-service
 vendor/bin/hw/vendor.mediatek.hardware.mmlpq@V1-service
 vendor/bin/hw/vendor.mediatek.hardware.mms@1.7-service
-vendor/bin/hw/vendor.mediatek.hardware.mtkpower-service.mediatek
-vendor/bin/hw/vendor.mediatek.hardware.mtkpower_applist-service.mediatek
 vendor/bin/hw/vendor.mediatek.hardware.nvram-service
 vendor/bin/hw/vendor.mediatek.hardware.nwk_opt@1.0-service
 vendor/bin/hw/vendor.mediatek.hardware.pq_aidl-service
@@ -72,7 +65,6 @@ vendor/bin/stp_dump3
 vendor/bin/tee-supplicant
 vendor/bin/thermal_core
 vendor/bin/thermal_intf
-vendor/bin/touch_boost
 vendor/bin/volte_clientapi_ua
 vendor/bin/volte_rcs_ua
 vendor/bin/wifi_dump
@@ -264,10 +256,7 @@ vendor/etc/init/bootperf.rc
 vendor/etc/init/camerahalserver.rc
 vendor/etc/init/dcxo_nvram_init.rc
 vendor/etc/init/dmc_core.rc
-vendor/etc/init/eara-io-service.rc
 vendor/etc/init/em_hal_user.rc
-vendor/etc/init/fpsgo.rc
-vendor/etc/init/gbe.rc
 vendor/etc/init/gsm0710muxd.rc
 vendor/etc/init/hyb_vpud-64b.rc
 vendor/etc/init/init.bip_ap.rc
@@ -277,8 +266,6 @@ vendor/etc/init/init.btmtk_usb.rc
 vendor/etc/init/init.cccimdinit.rc
 vendor/etc/init/init.cccirpcd.rc
 vendor/etc/init/init.connfem.rc
-vendor/etc/init/init.fpsgo.rc
-vendor/etc/init/init.frs.rc
 vendor/etc/init/init.gps_drv.rc
 vendor/etc/init/init.thermal_core.rc
 vendor/etc/init/init.touch.rc
@@ -287,20 +274,16 @@ vendor/etc/init/lights-mtk-default.rc
 vendor/etc/init/loghidlvendorservice.rc
 vendor/etc/init/md_rfs.rc
 vendor/etc/init/mtklog.rc
-vendor/etc/init/mtkpower_applist-mtk-default.rc
 vendor/etc/init/muxreport.rc
 vendor/etc/init/netdagent.rc
 vendor/etc/init/networksetting.rc
 vendor/etc/init/nvram_daemon.rc
 vendor/etc/init/tee-supplicant.rc
-vendor/etc/init/touch_boost.rc
 vendor/etc/init/vendor.mediatek.hardware.hdcpwifidisplay@1.0-service.rc
 vendor/etc/init/vendor.mediatek.hardware.hdmi_aidl-service.rc
 vendor/etc/init/vendor.mediatek.hardware.mmagent-service.rc
 vendor/etc/init/vendor.mediatek.hardware.mmlpq@V1-service.rc
 vendor/etc/init/vendor.mediatek.hardware.mms@1.7-service.rc
-vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc
-vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc
 vendor/etc/init/vendor.mediatek.hardware.nvram-sevice.rc
 vendor/etc/init/vendor.mediatek.hardware.nwk_opt@1.0-service.rc
 vendor/etc/init/vendor.mediatek.hardware.pq_aidl-service.rc
@@ -339,9 +322,6 @@ vendor/etc/permissions/android.software.midi.xml
 vendor/etc/permissions/android.software.opengles.deqp.level.xml
 vendor/etc/permissions/android.software.vulkan.deqp.level.xml
 vendor/etc/permissions/handheld_core_hardware.xml
-vendor/etc/power_app_cfg.xml
-vendor/etc/powercontable.xml
-vendor/etc/powerscntbl.xml
 vendor/etc/pq_flag.xml
 vendor/etc/public.libraries.txt
 vendor/etc/qt.cfg
@@ -381,8 +361,6 @@ vendor/etc/vintf/manifest/manifest_media_c2_V1_2_default.xml
 vendor/etc/vintf/manifest/manifest_mmlpq.xml
 vendor/etc/vintf/manifest/mapper.mediatek.xml
 vendor/etc/vintf/manifest/mtk_hdmi_service.xml
-vendor/etc/vintf/manifest/mtkpower_applist-mtk-default.xml
-vendor/etc/vintf/manifest/power-mediatek.xml
 vendor/etc/virtual-spn-conf-by-efgid1.xml
 vendor/etc/virtual-spn-conf-by-efpnn.xml
 vendor/etc/virtual-spn-conf-by-efspn.xml
@@ -391,7 +369,6 @@ vendor/etc/wfd_source_capability.csv
 vendor/etc/wifi/p2p_supplicant_overlay.conf
 vendor/etc/wifi/wpa_supplicant.conf
 vendor/etc/wifi/wpa_supplicant_overlay.conf
-vendor/etc/xgf.cfg
 vendor/firmware/BT_FW.cfg
 vendor/firmware/BT_RAM_CODE_MT7961_1_2_hdr.bin
 vendor/firmware/EEPROM_MT7663.bin
@@ -506,7 +483,6 @@ vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.hdmi_aidl-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.mms@1.7-impl.so
-vendor/lib/hw/vendor.mediatek.hardware.mtkpower-aidl-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.nvram-impl.so
 vendor/lib/libCamera_hi556mipiraw_E2EHDR_Preview.so
 vendor/lib/libCamera_hi556mipiraw_E2EHDR_Video.so
@@ -554,7 +530,6 @@ vendor/lib/libOpenCL.so;MODULE_SUFFIX=_vendor
 vendor/lib/libSQLiteModule_VER_ALL.so
 vendor/lib/libTEECommon.so
 vendor/lib/lib_iir.so
-vendor/lib/lib_power_applist.so
 vendor/lib/lib_uree_optee_video_secure_al_v2.so
 vendor/lib/libaal_key.so
 vendor/lib/libaal_sec.so
@@ -648,7 +623,6 @@ vendor/lib/libmtkcutils.so
 vendor/lib/libmtkhardware_legacy.so
 vendor/lib/libmtklimiter_vendor.so
 vendor/lib/libmtknetutils.so
-vendor/lib/libmtkperf_client_vendor.so;MODULE_SUFFIX=_vendor
 vendor/lib/libmtkproperty.so
 vendor/lib/libmtkrillog.so
 vendor/lib/libmtkshifter_vendor.so
@@ -667,11 +641,8 @@ vendor/lib/libnvram_sec.so
 vendor/lib/libnwk_opt_halwrap_vendor.so
 vendor/lib/libnxp_extamp_intf.so
 vendor/lib/liboptee_meta_drmkeyinstall.so
-vendor/lib/libperfctl_vendor.so;MODULE_SUFFIX=_vendor
 vendor/lib/libpixelflinger.so
 vendor/lib/libpower_timer.so
-vendor/lib/libpowerhal.so
-vendor/lib/libpowerhalwrap_vendor.so;MODULE_SUFFIX=_vendor
 vendor/lib/libpqframework.so
 vendor/lib/libpqhdrmetaparser.so
 vendor/lib/libpqsharememory.so
@@ -876,7 +847,6 @@ vendor/lib/vendor.mediatek.hardware.mms@1.4.so
 vendor/lib/vendor.mediatek.hardware.mms@1.5.so
 vendor/lib/vendor.mediatek.hardware.mms@1.6.so
 vendor/lib/vendor.mediatek.hardware.mms@1.7.so
-vendor/lib/vendor.mediatek.hardware.mtkpower_applist-V1-ndk.so
 vendor/lib/vendor.mediatek.hardware.netdagent-V1-ndk.so
 vendor/lib/vendor.mediatek.hardware.neuropilot.agent-V1-ndk.so
 vendor/lib/vendor.mediatek.hardware.neuropilot.agent@1.0.so
@@ -890,7 +860,6 @@ vendor/lib64/APUWareApusysAidlServer.so
 vendor/lib64/APUWareUtilsAidlServer.so
 vendor/lib64/android.hardware.bluetooth.audio-impl-mediatek.so
 vendor/lib64/android.hardware.light@2.0.so
-vendor/lib64/android.hardware.power-service-mediatek.so
 vendor/lib64/egl/libEGL_angle.so;MODULE_SUFFIX=_vendor
 vendor/lib64/egl/libGLES_meow.so
 vendor/lib64/egl/libGLESv1_CM_angle.so;MODULE_SUFFIX=_vendor
@@ -924,7 +893,6 @@ vendor/lib64/hw/vendor.mediatek.hardware.camera.bgservice_aidl@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.isphal_aidl@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.hdmi_aidl-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.mms@1.7-impl.so
-vendor/lib64/hw/vendor.mediatek.hardware.mtkpower-aidl-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.nvram-impl.so
 vendor/lib64/libCamera_hi556mipiraw_E2EHDR_Preview.so
 vendor/lib64/libCamera_hi556mipiraw_E2EHDR_Video.so
@@ -974,7 +942,6 @@ vendor/lib64/libTEECommon.so
 vendor/lib64/libVkLayer_mtk_rt_sdk.so
 vendor/lib64/lib_android_keymaster_keymint_utils.so:vendor/lib64/lib_android_keymaster_keymint_utils-v34.so;FIX_SONAME
 vendor/lib64/lib_iir.so
-vendor/lib64/lib_power_applist.so
 vendor/lib64/lib_uree_optee_video_secure_al_v2.so
 vendor/lib64/libaal_key.so
 vendor/lib64/libaal_sec.so
@@ -1093,7 +1060,6 @@ vendor/lib64/libmtkisp_metadata_v3.so
 vendor/lib64/libmtklimiter_vendor.so
 vendor/lib64/libmtkmipc-ril.so
 vendor/lib64/libmtknetutils.so
-vendor/lib64/libmtkperf_client_vendor.so;MODULE_SUFFIX=_vendor
 vendor/lib64/libmtkproperty.so
 vendor/lib64/libmtkrillog.so
 vendor/lib64/libmtkrilutils.so
@@ -1119,13 +1085,10 @@ vendor/lib64/libnwk_opt_halwrap_vendor.so
 vendor/lib64/libnxp_extamp_intf.so
 vendor/lib64/liboemcrypto.so
 vendor/lib64/liboptee_meta_drmkeyinstall.so
-vendor/lib64/libperfctl_vendor.so;MODULE_SUFFIX=_vendor
 vendor/lib64/libpixelflinger.so
 vendor/lib64/libplayready.so
 vendor/lib64/libplayreadyaidl.so
 vendor/lib64/libpower_timer.so
-vendor/lib64/libpowerhal.so
-vendor/lib64/libpowerhalwrap_vendor.so;MODULE_SUFFIX=_vendor
 vendor/lib64/libpqframework.so
 vendor/lib64/libpqhdrmetaparser.so
 vendor/lib64/libpqsharememory.so
@@ -1513,7 +1476,6 @@ vendor/lib64/vendor.mediatek.hardware.mms@1.5.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.6.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.7.so
 vendor/lib64/vendor.mediatek.hardware.mtklight-V1-ndk.so
-vendor/lib64/vendor.mediatek.hardware.mtkpower_applist-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex.assist-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex.atci-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex.cap-V1-ndk.so

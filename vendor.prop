@@ -182,7 +182,6 @@ ro.vendor.pq.mtk_ultra_resolution_support=1
 ro.vendor.pq.mtk_video_transition=0
 
 # Power
-persist.system.powerhal.applist_enable=1
 ro.lmk.downgrade_pressure=60
 ro.lmk.kill_timeout_ms=100
 ro.lmk.psi_complete_stall_ms=700

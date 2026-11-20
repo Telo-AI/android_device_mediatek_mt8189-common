@@ -116,6 +116,17 @@ PRODUCT_PACKAGES += \
     android.software.ipsec_tunnels.prebuilt.xml \
     android.software.verified_boot.prebuilt.xml
 
+# Power
+PRODUCT_PACKAGES += \
+    android.hardware.power-service.lineage-libperfmgr \
+    libmtkperf_client_vendor \
+    libperfctl_vendor \
+    libpowerhalwrap_vendor \
+    vendor.mediatek.hardware.mtkpower-service.stub
+
+PRODUCT_COPY_FILES += \
+    $(COMMON_PATH)/configs/perf/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
+
 # Rootdir
 PRODUCT_PACKAGES += \
     fstab.enableswap \
@@ -155,6 +166,9 @@ PRODUCT_SOONG_NAMESPACES += \
     device/mediatek/mt8189-common \
     hardware/google/interfaces \
     hardware/google/pixel/pixelstats \
-    hardware/mediatek
+    hardware/google/pixel/power-libperfmgr \
+    hardware/lineage/interfaces/power-libperfmgr \
+    hardware/mediatek \
+    hardware/mediatek/libmtkperf_client
 
 $(call inherit-product, vendor/mediatek/mt8189-common/mt8189-common-vendor.mk)

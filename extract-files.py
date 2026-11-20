@@ -20,6 +20,7 @@ from extract_utils.main import (
 namespace_imports = [
     'device/mediatek/mt8189-common',
     'hardware/mediatek',
+    'hardware/mediatek/libmtkperf_client',
 ]
 
 
@@ -40,9 +41,6 @@ lib_fixups: lib_fixups_user_type = {
         'libarmnn',
         'libgpudataproducer',
         'libion_mtk',
-        'libmtkperf_client_vendor',
-        'libperfctl_vendor',
-        'libpowerhalwrap_vendor',
         'libteec',
     ): lib_fixup_vendor_suffix,
 }
@@ -102,15 +100,11 @@ blob_fixups: blob_fixups_user_type = {
     (
         'vendor/lib/hw/audio.primary.mediatek.so',
         'vendor/lib/hw/mt8189/vendor.mediatek.hardware.pq_aidl-impl.so',
-        'vendor/lib/lib_power_applist.so',
-        'vendor/lib/libpowerhal.so',
         'vendor/lib/libpqxmlparser.so',
         'vendor/lib/librt_extamp_intf.so',
         'vendor/lib/mt8189/libmmlpqImpl.so',
         'vendor/lib64/hw/audio.primary.mediatek.so',
         'vendor/lib64/hw/mt8189/vendor.mediatek.hardware.pq_aidl-impl.so',
-        'vendor/lib64/lib_power_applist.so',
-        'vendor/lib64/libpowerhal.so',
         'vendor/lib64/libpqxmlparser.so',
         'vendor/lib64/librt_extamp_intf.so',
         'vendor/lib64/libsilkybrightnesscore.so',

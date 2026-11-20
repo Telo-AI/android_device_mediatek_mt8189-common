@@ -46,12 +46,5 @@ ro.vendor.usb.      u:object_r:vendor_mtk_usb_prop:s0
 ro.vendor.videoainr.enable            u:object_r:vendor_mtk_camera_prop:s0
 vendor.audio.ultrasound  u:object_r:vendor_mtk_audiohal_prop:s0
 vendor.bluetooth.lhdc_codec.supported u:object_r:vendor_mtk_default_prop:s0
-vendor.boostfwk.frame.decision         u:object_r:vendor_mtk_boostfwk_frame_decision_prop:s0
-vendor.boostfwk.rescue.checkpoint      u:object_r:vendor_mtk_boostfwk_checkpoint_prop:s0
-vendor.boostfwk.sbb.touch.duration     u:object_r:vendor_mtk_boostfwk_sbb_touch_duration_prop:s0
-vendor.boostfwk.scroll.duration.h      u:object_r:vendor_mtk_boostfwk_scroll_duration_h_prop:s0
-vendor.boostfwk.scroll.duration.v      u:object_r:vendor_mtk_boostfwk_scroll_duration_v_prop:s0
-vendor.boostfwk.scroll.floor           u:object_r:vendor_mtk_boostfwk_scroll_floor_prop:s0
-vendor.eara_io.                   u:object_r:vendor_mtk_eara_io_prop:s0
 vendor.mtk.c2.scenario. u:object_r:vendor_mtk_video_prop:s0
 vendor.vow.              u:object_r:vendor_mtk_audiohal_prop:s0
