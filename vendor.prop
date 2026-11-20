@@ -222,3 +222,6 @@ ro.surface_flinger.uclamp.min=160
 apexd.config.dm_create.timeout=5000
 persist.adb.nonblocking_ffs=0
 ro.incremental.enable=yes
+
+# USB
+vendor.usb.controller=11201000.usb0

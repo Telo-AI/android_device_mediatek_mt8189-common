@@ -31,13 +31,6 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "init.mt8189.usb.rc",
-    src: "init.mt8189.usb.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
     name: "init.mtkgki.rc",
     src: "init.mtkgki.rc",
     sub_dir: "init/hw",
