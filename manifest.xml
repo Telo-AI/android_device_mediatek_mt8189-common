@@ -68,14 +68,6 @@
         <fqname>@1.0::IHDCPWIFIDisplay/default</fqname>
     </hal>
     <hal format="aidl">
-        <name>vendor.mediatek.hardware.log</name>
-        <fqname>ILog/ATMWiFiHidlServer</fqname>
-        <fqname>ILog/ConnsysFWHidlServer</fqname>
-        <fqname>ILog/LoggerHidlServer</fqname>
-        <fqname>ILog/MobileLogHidlServer</fqname>
-        <fqname>ILog/ModemLogHidlServer</fqname>
-    </hal>
-    <hal format="aidl">
         <name>vendor.mediatek.hardware.mmagent</name>
         <fqname>IMMAgent/default</fqname>
     </hal>

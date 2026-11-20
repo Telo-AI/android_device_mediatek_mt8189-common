@@ -82,12 +82,6 @@ on charger
     chmod 0660 /sys/power/wakeup_count
     write /sys/power/pm_freeze_timeout 2000
 
-    # gauge symbolic
-    symlink /sys/devices/platform/soc/11280000.i2c/i2c-5/5-0034/11280000.i2c:mt6375@34:mtk-gauge /dev/gauge
-
-    start fuelgauged
-    start fuelgauged_nvram
-
     chown system system /sys/class/leds/lcd-backlight/brightness
     chown system system /sys/class/leds/lcd-backlight1/brightness
     chown system system /sys/class/leds/red/brightness
