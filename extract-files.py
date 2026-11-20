@@ -147,6 +147,8 @@ blob_fixups: blob_fixups_user_type = {
         .add_line_if_missing('getppid: 1')
         .add_line_if_missing('sysinfo: 1')
         .add_line_if_missing('uname: 1'),
+    'vendor/etc/public.libraries.txt': blob_fixup()
+        .add_line_if_missing('libneuron_adapter_mgvi.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(

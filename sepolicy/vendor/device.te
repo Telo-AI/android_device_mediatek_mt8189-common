@@ -1,1 +1,2 @@
 type mtk_mma_device, dev_type;
+typeattribute apusys_device mlstrustedobject;
