@@ -1,1 +1,2 @@
 type frs_socket, file_type;
+type proc_mtk_tee_ramlog, fs_type, proc_type;

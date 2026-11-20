@@ -1,0 +1,2 @@
+allow tee proc_mtk_tee_ramlog:file r_file_perms;
+allowxperm tee proc_mtk_tee_ramlog:file ioctl 0x74d2;
