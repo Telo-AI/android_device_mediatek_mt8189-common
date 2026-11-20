@@ -143,6 +143,10 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('android.hardware.sensors-V2-ndk.so', 'android.hardware.sensors-V3-ndk.so'),
     'vendor/lib64/mt8189/libmtkcam_hal_aidl_common.so': blob_fixup()
         .replace_needed('android.hardware.camera.common-V2-ndk.so', 'android.hardware.camera.common-V1-ndk.so'),
+    'vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy': blob_fixup()
+        .add_line_if_missing('getppid: 1')
+        .add_line_if_missing('sysinfo: 1')
+        .add_line_if_missing('uname: 1'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
