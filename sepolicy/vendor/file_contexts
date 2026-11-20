@@ -23,9 +23,5 @@
 # Neural networks
 /vendor/bin/hw/android\.hardware\.neuralnetworks-shim-service-mtk-lazy                       u:object_r:mtk_hal_neuralnetworks_exec:s0
 
-# USB
-/vendor/bin/hw/android\.hardware\.usb-aidl-service\.mediatekv1\.0                            u:object_r:mtk_hal_usb_exec:s0
-/vendor/bin/hw/android\.hardware\.usb\.gadget-aidl-service\.mediatekv1\.0                    u:object_r:mtk_hal_usb_exec:s0
-
 # Video
 /vendor/bin/hyb_vpud-64b                                                                     u:object_r:vpud_native_exec:s0

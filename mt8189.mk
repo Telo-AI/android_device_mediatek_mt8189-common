@@ -132,6 +132,10 @@ PRODUCT_PACKAGES += \
     ueventd.mt8189.rc
 
 # USB
+PRODUCT_PACKAGES += \
+    android.hardware.usb-service.mediatek \
+    android.hardware.usb.gadget-service.mediatek
+
 $(call soong_config_set_bool,mediatek_gadget,use_custom_usb_gadget_rc,true)
 
 # Wi-Fi
