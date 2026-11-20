@@ -199,6 +199,7 @@ on post-fs-data
     chown root system /mnt/vendor/nvdata
     chmod 0771 /mnt/vendor/nvdata
     mkdir /mnt/vendor/nvdata/media 0771 media audio
+    chmod 0660 /mnt/vendor/nvdata/RestoreFlag
 
     #Create cct mount point
     mkdir /mnt/vendor/cct
