@@ -331,7 +331,6 @@ vendor/etc/vintf/manifest/android.hardware.drm-service.playready.xml
 vendor/etc/vintf/manifest/android.hardware.gatekeeper-service.tee.xml
 vendor/etc/vintf/manifest/android.hardware.neuralnetworks-shim-service-mtk.xml
 vendor/etc/vintf/manifest/android.hardware.security.keymint@3.0-service.tee.xml
-vendor/etc/vintf/manifest/bluetooth_audio.xml:vendor/etc/vintf/manifest/bluetooth_audio_vendor.xml
 vendor/etc/vintf/manifest/em_hal_service.xml
 vendor/etc/vintf/manifest/lights-mtk-default.xml
 vendor/etc/vintf/manifest/manifest_allocator.xml:vendor/etc/vintf/manifest/manifest_allocator_vendor.xml
@@ -536,7 +535,6 @@ vendor/lib/libaudiotoolkit_vendor.so
 vendor/lib/libaurisysdemo.so
 vendor/lib/libbessound_hd_mtk_vendor.so
 vendor/lib/libblisrc32_vendor.so
-vendor/lib/libbluetooth_audio_session_aidl_mtk.so
 vendor/lib/libbluetooth_audio_session_mediatek.so
 vendor/lib/libbluetooth_mtk.so
 vendor/lib/libbluetooth_mtk_pure.so
@@ -830,7 +828,6 @@ vendor/lib/vendor.mediatek.hardware.pq_aidl-V2-ndk.so
 vendor/lib/vendor.mediatek.hardware.pq_aidl-V5-ndk.so
 vendor/lib64/APUWareApusysAidlServer.so
 vendor/lib64/APUWareUtilsAidlServer.so
-vendor/lib64/android.hardware.bluetooth.audio-impl-mediatek.so
 vendor/lib64/android.hardware.light@2.0.so
 vendor/lib64/egl/libEGL_angle.so;MODULE_SUFFIX=_vendor
 vendor/lib64/egl/libGLES_meow.so
@@ -943,7 +940,6 @@ vendor/lib64/libaudiotoolkit_vendor.so
 vendor/lib64/libaurisysdemo.so
 vendor/lib64/libbessound_hd_mtk_vendor.so
 vendor/lib64/libblisrc32_vendor.so
-vendor/lib64/libbluetooth_audio_session_aidl_mtk.so
 vendor/lib64/libbluetooth_audio_session_mediatek.so
 vendor/lib64/libbluetooth_mtk.so
 vendor/lib64/libbluetooth_mtk_pure.so
