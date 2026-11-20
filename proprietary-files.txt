@@ -255,7 +255,6 @@ vendor/etc/init/init.btmtk_usb.rc
 vendor/etc/init/init.connfem.rc
 vendor/etc/init/init.gps_drv.rc
 vendor/etc/init/init.thermal_core.rc
-vendor/etc/init/init.touch.rc
 vendor/etc/init/init.wlan_drv.rc
 vendor/etc/init/lights-mtk-default.rc
 vendor/etc/init/loghidlvendorservice.rc
