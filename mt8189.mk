@@ -39,8 +39,6 @@ PRODUCT_PACKAGES_DEBUG += \
     update_engine_client
 
 # VNDK
-PRODUCT_EXTRA_VNDK_VERSIONS := 34
-
 PRODUCT_PACKAGES += \
     vndservicemanager
 
