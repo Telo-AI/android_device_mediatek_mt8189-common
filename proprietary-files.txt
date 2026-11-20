@@ -29,7 +29,6 @@ vendor/bin/frs_intf
 vendor/bin/gbe
 vendor/bin/gpu_counter_producer;MODULE_SUFFIX=_vendor
 vendor/bin/gsm0710muxd
-vendor/bin/hw/android.hardware.boot-service.mtk
 vendor/bin/hw/android.hardware.drm-service.playready
 vendor/bin/hw/android.hardware.gatekeeper-service.tee
 vendor/bin/hw/android.hardware.graphics.composer@3.2-service
@@ -253,7 +252,6 @@ vendor/etc/gralloc/dpu_aeu.xml
 vendor/etc/gralloc/gpu.xml
 vendor/etc/gralloc/vpu.xml
 vendor/etc/init.insmod.mt8391.cfg
-vendor/etc/init/android.hardware.boot-service.mtk.rc
 vendor/etc/init/android.hardware.drm-service.playready.rc
 vendor/etc/init/android.hardware.gatekeeper-service.tee.rc
 vendor/etc/init/android.hardware.graphics.allocator-V2-service-mediatek.rc
@@ -370,7 +368,6 @@ vendor/etc/usb_audio_accessory_only_policy_configuration.xml
 vendor/etc/usb_audio_policy_configuration.xml
 vendor/etc/vendor-apns-conf.xml
 vendor/etc/vintf/manifest/CommandService.xml
-vendor/etc/vintf/manifest/android.hardware.boot-service.mtk.xml
 vendor/etc/vintf/manifest/android.hardware.drm-service.playready.xml
 vendor/etc/vintf/manifest/android.hardware.gatekeeper-service.tee.xml
 vendor/etc/vintf/manifest/android.hardware.neuralnetworks-shim-service-mtk.xml
@@ -653,7 +650,6 @@ vendor/lib/libmp3dec_mtk.so
 vendor/lib/libmp4enc_sa.ca7.so;DISABLE_CHECKELF
 vendor/lib/libmp4enc_xa.ca7.so;DISABLE_CHECKELF
 vendor/lib/libmsbc_mtk.so
-vendor/lib/libmtk_bsg.so;RECOVERY_AVAILABLE
 vendor/lib/libmtkcutils.so
 vendor/lib/libmtkhardware_legacy.so
 vendor/lib/libmtklimiter_vendor.so
@@ -1093,7 +1089,6 @@ vendor/lib64/libmmprofile.so
 vendor/lib64/libmp3dec_mtk.so
 vendor/lib64/libmsbc_mtk.so
 vendor/lib64/libmtk-ril.so
-vendor/lib64/libmtk_bsg.so;RECOVERY_AVAILABLE
 vendor/lib64/libmtkcam_calibration_convertor.so
 vendor/lib64/libmtkcam_pipelinepolicy-aov.so
 vendor/lib64/libmtkconfig.so
@@ -1594,8 +1589,3 @@ vendor/etc/goodix/ve21rv/VoIP_mic_recv.bin
 vendor/etc/goodix/ve21rv/VoIP_mic_recv_game.bin
 vendor/etc/goodix/ve21rv/VoIP_mic_spk.bin
 vendor/etc/goodix/ve21rv/VoIP_mic_spk_game.bin
-
-# Boot control in recovery, from vendor_boot's recovery ramdisk
-recovery/system/bin/hw/android.hardware.boot-service.mtk_recovery
-recovery/system/etc/init/android.hardware.boot-service.mtk_recovery.rc
-recovery/system/etc/vintf/manifest/android.hardware.boot-service.mtk.xml:recovery/system/etc/vintf/manifest/android.hardware.boot-service.mtk_recovery.xml

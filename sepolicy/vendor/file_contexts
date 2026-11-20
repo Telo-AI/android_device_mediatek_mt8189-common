@@ -1,6 +1,3 @@
-# Bootctrl
-/vendor/bin/hw/android\.hardware\.boot-service\.mtk                                          u:object_r:hal_bootctl_default_exec:s0
-
 # DRM
 /dev/mtk_mma                                                                                 u:object_r:mtk_mma_device:s0
 /vendor/bin/hw/android\.hardware\.drm-service\.playready                                     u:object_r:hal_drm_playready_exec:s0

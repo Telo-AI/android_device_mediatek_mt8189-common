@@ -57,6 +57,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth-service.default
 
+# Boot control
+PRODUCT_PACKAGES += \
+    android.hardware.boot-service.mediatek \
+    android.hardware.boot-service.mediatek_recovery
+
 # Chipinfo
 PRODUCT_PACKAGES += \
     chipinfo
